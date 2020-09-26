@@ -1,0 +1,358 @@
+html, body {
+    margin:0;
+}
+header {
+    background: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 0 5px 0  #000;
+}
+#logo {
+    float: left;
+    font-family: 'anton';
+    font-size: 32px;
+    margin: 0;
+    margin-left: 12%;
+    padding: 9px 20px 9px 20px;   
+}
+#logo:hover {
+    color: #DB48A2;
+}
+.corlogo {
+    text-decoration: none;
+    color: #DB48A2;
+}
+#menu {
+    float: right;
+    font-family: 'barlow condensed';
+    font-size: 22px;
+    margin-right: 15%;
+    margin-top: 0px;
+    list-style: none; 
+}
+#menu2, label, input {
+    visibility: hidden;
+}
+li {
+    float: left;
+    color: white;
+    padding: 20px 10px 20px 10px;
+}
+.cormenu {
+    text-decoration: none;
+    color: black;    
+}
+#imagem_fundo { 
+    background: url(Imagem_fundo.png);
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+#tex1 {
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-family: 'anton';
+    font-weight: lighter;
+    font-size: 140px;
+    color: #DB48A2;
+    margin: 0;
+    padding-top: 18%;
+}
+#siteONU {
+    text-decoration: none;
+    font-family: 'barlow condensed';
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 10px 20px ;
+    border: 2px white solid;    
+} 
+section{
+    padding: 65px 20px 40px 20px;
+}
+#Denuncia {
+    background-color: #8e359d;
+    padding: 30px 20px 10px 20px;
+    height: 230px; 
+}
+#Sobre_mim {
+    border-right: 2.9vw #8e359d  solid;
+    padding: 60px 20px 0 90px;
+    height: 436px;
+}
+.eu {
+    margin: 20px 0 40px 0;
+    border: 7px #8e359d solid;
+}
+#rodape {
+    background-color: #DB48A2;
+    padding: 50px 20px 10px 90px;
+    height: 170px;
+}
+.section1 {
+    border-left: 2.9vw #DB48A2  solid;
+    height: 500px;
+}
+.section2 {
+    border-left: 2.9vw #522888  solid;
+    height: 500px;
+}
+.section3 {
+    border-left: 2.9vw #8e359d  solid;
+    height: 500px;
+}
+.section4 {
+    border-left: 2.9vw #c745ab  solid;
+    height: 500px;
+}
+.fundo_color {
+    background-color: #F1F1F1;
+}
+.fundo_color2 {
+    background-color: #f7f7f7;
+}
+.coluna {
+    float:left;
+    padding:0 5%;
+    position: relative;
+}
+.coluna1 {
+    float:left;
+    padding:0 5%;
+    position: relative;
+}    
+.coluna_dois {
+    float:left;
+    padding:0 5%;
+    position: relative;
+    width:40%;
+}
+.coluna_tres {
+    float:left;
+    padding:0 5%;
+    position: relative;
+    width:30%;
+    padding: 0 0 0 15%;
+}
+.coluna_quatro {
+    float:left;
+    padding:0 5%;
+    position: relative;
+    width:21%;
+    padding: 65px 1.7% 0 1.7%;
+}
+.justify {
+    font-family: 'barlow condensed';
+    font-size: 21px;
+    text-align: justify;
+    width: 95%;
+}
+.center {
+    text-align: center;
+}
+p {
+    font-family: 'barlow condensed';
+}
+.p2 {
+    font-size: 21px;
+}
+.p3 {
+    margin: 0;
+    padding: 8px 3px 10px 0px ;
+    position: relative;
+    font-size: 18px;
+}
+h2 {
+    font-family: 'barlow condensed';
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.cabeçalho {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.cabeçalho2 {
+    font-family: 'barlow condensed';
+    font-size: 20px;
+}
+.color_text {
+    color: white;
+}
+#icones {
+    width: 120px;
+}
+.img_moça{
+    padding: 0 30px 0 190px;
+}
+#link_purple {
+    text-decoration: none;
+    font-family: 'barlow condensed';
+    font-weight: normal;
+    color: #522888;
+}
+#link_white {
+    font-family: 'barlow condensed';
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+@media all and (max-width:1024px) {
+    
+    #logo {
+        margin-left: 8%;
+    }
+    #menu {
+        margin-right: 20%;
+    }
+    .coluna, .coluna_dois, .coluna_tres, .coluna_quatro {
+        float: none;
+        width: 90%;
+    }
+    .coluna1 {
+        float: left;
+    }
+    .coluna_dois {
+        padding-bottom: 3%;
+    }
+    .section1, .section2, .section3, .section4, #Sobre_mim {
+        height: 100%;
+    }
+    #Projeto, #Oquee, #Como_atuam, #Destino, #Brasil_trafic, #Mais, #Previnir, #Sobre_miim {
+        text-align: center;
+    }
+    .destino_text {
+        width: 40%;
+        text-align: center;
+        padding-left: 28.5%;
+    }
+    .justify {
+        width: 100%;
+    }
+    #titulo {
+        padding: 1%;
+    }
+    #tipo_text {
+        float: left;
+        width: 30%;
+    }
+    #tipo_text2 {
+        float: left;
+        width: 40%;
+    }
+    #videos {
+        padding-top: 2%;
+    }
+    .img_moça {
+       padding: 0 0 0 4%;
+    }
+    .eu {
+        margin: 0 0 2% 22%;
+    }
+    #rodape {
+        height: 180px;
+    }
+}
+@media all and (max-width:900px){
+
+    #menu {
+        visibility: hidden;
+    }
+    header label{
+        visibility: visible;
+        position: absolute;
+        padding: 5% 0 3% 0;
+        text-align: left;
+        cursor: pointer;
+        z-index: 11;
+        transition: all .2s linear;
+    }
+    #menu2 {
+        visibility: visible;
+        box-sizing: border-box;
+        background-color:white;
+        margin: 15% 0;
+        height: 53vh;
+        width: 47%;
+        left: -47vw;
+        position: absolute;
+        transition: all .2s linear;
+    }
+    #menu2 a {
+        display: block;
+        text-decoration: none;
+        font-family: 'barlow condensed';
+        font-size: 20px;
+        padding: 7% 12%;
+        color: white;
+        background-color: #DB48A2;
+        border-bottom: 1px white solid;
+        opacity: 0;
+        margin-top: 5vh;
+        transition: all .4s linear;
+    }
+    #check:checked ~ #menu2{
+        transform: translateX(45vw);
+    }
+    #check:checked ~ #menu2 a{
+        opacity: 1;
+        margin-top: 0;
+    }
+    #logo {
+        float: right;
+        text-align: center;
+        transform:translateX(-40%);
+        position: relative;
+    }
+    .destino_text {
+        width: 90%;
+        padding-left: 0;
+    }
+    #tex1 {
+        font-size: 48px;
+        padding-top: 60%;
+        padding-bottom: 5%;
+    }
+    #siteONU {
+        font-size: 20px;
+        padding: 10px 20px ;
+        border: 2px white solid;  
+    }
+    #img_projeto, #video_oque, #video_atuam, #img_brasil, #video_mais, #img_previnir, .eu {
+        width: 100%;
+    }
+    #img_brasil {
+        height: 50%;
+    }
+    #Denuncia{
+        height: 370px;
+    }
+    #tipo_text {
+        width: 90%;
+    }
+    #Sobre_mim {
+        padding: 0 5%;
+        text-align: justify;
+    }
+    .eu {
+        margin: 0;
+        border: none;
+    }
+    #rodape {
+        padding: 5% 5% 12% 2%;
+        height: 50vh;
+        font-size: 15px;  
+    }
+    #tipo_text2 {
+        float: none;
+        width: 95%;
+    }
+
+
+
+}
